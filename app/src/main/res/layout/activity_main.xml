@@ -8,37 +8,44 @@
 
     <!-- Titolo dell'App -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Valutazione Vaccini in Terapia Biologica"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="32dp"
+        android:background="#E3F2FD"
+        android:fontFamily="sans-serif-condensed-medium"
         android:gravity="center"
-        android:layout_marginBottom="32dp"/>
+        android:textStyle="bold | italic"
+        android:padding="16dp"
+        android:text="My Vaccines"
+        android:textColor="#0D47A1"
+        android:textSize="25sp" />
+
 
     <!-- Campo per l'Età -->
+
     <EditText
         android:id="@+id/etEta"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
         android:hint="Inserisci l'età del paziente"
-        android:inputType="number"
-        android:layout_marginBottom="16dp"/>
+        android:inputType="number" />
 
     <!-- Campo per la Terapia Biologica -->
     <EditText
         android:id="@+id/etTerapia"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
         android:hint="Terapia biologica (es. anti-TNF)"
-        android:inputType="text"
-        android:layout_marginBottom="24dp"/>
+        android:inputType="text" />
 
     <!-- Bottone per il calcolo -->
     <Button
         android:id="@+id/btnCalcola"
+        android:fontFamily="sans-serif-condensed-medium"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Calcola Raccomandazioni"/>
+        android:layout_height="58dp"
+        android:text="Calcola Raccomandazioni" />
 
 </LinearLayout>
