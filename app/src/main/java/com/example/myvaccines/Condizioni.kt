@@ -1,9 +1,9 @@
 package com.example.myvaccines
 
 enum class Condizioni (val nameStr: String){
-    GRAVIDANZE("Gravidanze"),
+    GRAVIDANZA("Gravidanza"),
     ALLERGIE(nameStr = "Allergie"),
-    PATOLOGIE_CARDIACHE(nameStr = "Patologie Cardiaache"),
+    PATOLOGIE_CARDIACHE(nameStr = "Patologie Cardiache"),
     PATOLOGIE_RESPIRATORIE("Patologie Respiratorie"),
     PATOLOGIE_METABOLICHE("Patologie Metaboliche"),
     IMMUNODEPRESSIONE("Immunodepressione");
