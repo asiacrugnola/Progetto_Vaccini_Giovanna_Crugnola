@@ -40,6 +40,16 @@
         android:layout_marginBottom="16dp"
         android:hint="Terapia biologica (es. anti-TNF)"
         android:inputType="text" />
+    <!--campo per le condizioni cliniche-->
+
+    <EditText
+        android:id= "@+id/etCondizioni"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Condizioni cliniche"
+        android:inputType="text" />
+
 
     <!-- Bottone per il calcolo -->
     <Button
